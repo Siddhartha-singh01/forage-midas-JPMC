@@ -15,5 +15,5 @@ public class DatabaseConduit {
     public void save(UserRecord userRecord) {
         userRepository.save(userRecord);
     }
-
+   
 }
